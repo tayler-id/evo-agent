@@ -1,0 +1,13 @@
+# Database files
+*.db
+
+# External tools directory
+mcptools/
+
+# Environment variables
+.env
+ai_research_agent/.env
+
+# Python cache
+__pycache__/
+*.pyc

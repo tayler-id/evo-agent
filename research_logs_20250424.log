@@ -1,0 +1,22 @@
+2025-04-24 19:59:41,617 - AI_Capability_Researcher - INFO - Connected to database: ai_research.db
+2025-04-24 19:59:41,618 - AI_Capability_Researcher - INFO - Database tables initialized successfully.
+2025-04-24 19:59:41,618 - AI_Capability_Researcher - INFO - Interacting with model: gpt-3.5-turbo with prompt: 'Explain quantum computing in simple terms...'
+2025-04-24 19:59:43,338 - AI_Capability_Researcher - INFO - Model interaction successful. Usage: {'completion_tokens': 116, 'prompt_tokens': 24, 'total_tokens': 140, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}
+2025-04-24 19:59:43,340 - AI_Capability_Researcher - INFO - Experiment 1 saved to database.
+2025-04-24 19:59:43,340 - AI_Capability_Researcher - WARNING - add_observation is not implemented for database storage yet (exp_id: 1).
+2025-04-24 19:59:43,340 - AI_Capability_Researcher - WARNING - add_observation is not implemented for database storage yet (exp_id: 1).
+2025-04-24 19:59:43,340 - AI_Capability_Researcher - INFO - Evaluation for experiment 1 saved to database.
+2025-04-24 19:59:43,341 - AI_Capability_Researcher - INFO - Generating visualizations in directory: research_plots
+2025-04-24 19:59:44,253 - AI_Capability_Researcher - INFO - Saved average scores plot to research_plots/average_scores.png
+2025-04-24 19:59:44,254 - AI_Capability_Researcher - INFO - Database connection closed.
+2025-04-24 20:00:00,896 - AI_Capability_Researcher - INFO - Connected to database: ai_research.db
+2025-04-24 20:00:00,896 - AI_Capability_Researcher - INFO - Database tables initialized successfully.
+2025-04-24 20:00:00,896 - AI_Capability_Researcher - INFO - Interacting with model: gpt-3.5-turbo with prompt: 'Explain quantum computing in simple terms...'
+2025-04-24 20:00:03,189 - AI_Capability_Researcher - INFO - Model interaction successful. Usage: {'completion_tokens': 150, 'prompt_tokens': 24, 'total_tokens': 174, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}
+2025-04-24 20:00:03,190 - AI_Capability_Researcher - INFO - Experiment 2 saved to database.
+2025-04-24 20:00:03,190 - AI_Capability_Researcher - WARNING - add_observation is not implemented for database storage yet (exp_id: 2).
+2025-04-24 20:00:03,190 - AI_Capability_Researcher - WARNING - add_observation is not implemented for database storage yet (exp_id: 2).
+2025-04-24 20:00:03,191 - AI_Capability_Researcher - INFO - Evaluation for experiment 2 saved to database.
+2025-04-24 20:00:03,191 - AI_Capability_Researcher - INFO - Generating visualizations in directory: research_plots
+2025-04-24 20:00:03,344 - AI_Capability_Researcher - INFO - Saved average scores plot to research_plots/average_scores.png
+2025-04-24 20:00:03,344 - AI_Capability_Researcher - INFO - Database connection closed.

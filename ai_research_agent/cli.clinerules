@@ -1,0 +1,16 @@
+# .clinerules for ai_research_agent/cli.py
+
+- **Purpose:** Provides a natural language, autonomous agent CLI for multi-tool research, code, shell, file, and browser actions.
+- **OpenAI Function Calling:** Uses OpenAI (gpt-3.5-turbo-1106) function calling with JSONSchema tool definitions for robust, extensible tool selection and execution.
+- **Tool Schemas:** All tools (shell_exec, python_exec, research, file_read, file_write, browse, message_notify_user, idle) are defined in JSONSchema format and passed to OpenAI for function selection.
+- **Natural Language Agent Loop:** Any user input is interpreted as a request; the agent selects and executes the right tool automatically.
+- **Persistent System Prompt:** Supports a persistent, detailed system prompt (Manus/Cline-compliant) for all actions and tool selection.
+- **Knowledge Graph & Memory:** All actions, research, and results are stored in a persistent SQLite knowledge graph, enabling context-aware recall and reasoning.
+- **Fallback Logic:** If OpenAI returns code or shell blocks instead of JSON, the agent extracts and executes them.
+- **Cline/Manus Compliance:** All major changes, tool schemas, and agent loop logic are documented in the memory bank and .clinerules. Sequentialthinking and context7 are used for planning and documentation.
+- **Pending Next Steps:**
+  - Expand tool schemas (planner, knowledge, datasource, event stream, reflexion)
+  - Implement planner module for multi-step task planning
+  - Integrate knowledge and datasource modules
+  - Add event stream and reflexion/self-critique
+  - Update all docs and .clinerules as new capabilities are added

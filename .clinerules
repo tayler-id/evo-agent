@@ -1,0 +1,5 @@
+# Cline Rules for ai_research_agent project
+
+- Always use the sequentialthinking MCP tool for complex planning and execution.
+- Use the context7 MCP tool for fetching documentation when needed.
+- Maintain detailed and accurate records in the memory-bank files. Be very detailed.

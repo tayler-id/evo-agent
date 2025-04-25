@@ -1,0 +1,6 @@
+# .clinerules for memory agent
+
+- Purpose: The memory agent is responsible for embedding, storing, and retrieving all captured knowledge (notes, PDFs, code, voice, etc.) using a vector database for semantic search and fast recall.
+- Responsibilities: Accepts new data for embedding and storage, supports semantic and keyword queries, manages metadata/tags, and ensures data integrity. Provides fast, context-aware recall for other agents.
+- Memory-Critical Details: Must log all data ingestions, embeddings, queries, and retrievals. Should record context for each storage/retrieval operation for auditability and debugging.
+- Architectural Notes: Interfaces with pgvector/Postgres for vector storage and search. Designed for extensibility (e.g., support new data types or storage backends). Should be stateless except for the vector DB and logs.

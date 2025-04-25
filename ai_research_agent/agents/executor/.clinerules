@@ -1,0 +1,6 @@
+# .clinerules for executor agent
+
+- Purpose: The executor agent is responsible for triggering OS scripts, Git operations, calendar events, Slack messages, and Home-Assistant automations as directed by the planner or other agents.
+- Responsibilities: Receives and executes action requests, manages execution status, handles errors, and logs all actions. Supports integration with multiple external systems via modular adapters.
+- Memory-Critical Details: Must log all execution requests, actions taken, results, and errors. Should record context for each execution for auditability and debugging.
+- Architectural Notes: Interfaces with shell, Git, calendar APIs, Slack, and Home-Assistant via adapters. Designed for extensibility (e.g., add new adapters or execution strategies). Should be stateless except for execution logs.

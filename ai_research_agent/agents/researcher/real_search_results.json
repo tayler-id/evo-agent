@@ -1,0 +1,27 @@
+[
+  {
+    "title": "GitHub - aimerou/awesome-ai-papers: A curated list of the most impressive AI papers",
+    "snippet": "A curated list of the most impressive AI papers. Contribute to aimerou/awesome-ai-papers development by creating an account on GitHub.",
+    "url": "https://github.com/aimerou/awesome-ai-papers"
+  },
+  {
+    "title": "r/MachineLearning on Reddit: [D] If you had to pick 10-20 significant papers that summarize the research trajectory of AI from the past 100 years what would they be",
+    "snippet": "He is an extremely prolific researcher who believes that his lab was the first to publish on a number of significant topics ... Attention is all you need (2017). ... I don't think the deep learning paper is really significant.",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/zetvmd/d_if_you_had_to_pick_1020_significant_papers_that/"
+  },
+  {
+    "title": "Top 10 Influential AI Research Papers in 2023 from Google, Meta, Microsoft, and More",
+    "snippet": "We delve into ten transformative AI research papers from diverse domains, spanning language models, image processing, image generation, and video editing.",
+    "url": "https://www.topbots.com/top-ai-research-papers-2023/"
+  },
+  {
+    "title": "Artificial intelligence | MIT News | Massachusetts Institute of Technology",
+    "snippet": "Displaying 1 - 15 of 1342 news articles related to this topic.",
+    "url": "https://news.mit.edu/topic/artificial-intelligence2"
+  },
+  {
+    "title": "Ten Noteworthy AI Research Papers of 2023",
+    "snippet": "Annotated figure from Llama 2 paper (https://arxiv.org/abs/2307.09288) showing the performance progression from the first iteration of the supervised finetuned model (SFT-1) to the final RLHF-finetuned chat model (RLHF-v5). Even though models such as Mistral-8x7B (more later), DeepSeek-67B, ...",
+    "url": "https://magazine.sebastianraschka.com/p/10-ai-research-papers-2023"
+  }
+]

@@ -1,0 +1,6 @@
+# .clinerules for planner agent
+
+- Purpose: The planner agent is responsible for orchestrating the overall workflow, converting high-level goals into executable tasks, and prioritizing actions for other agents.
+- Responsibilities: Receives user/system goals, decomposes them into actionable steps, assigns tasks to other agents, and monitors progress. Maintains a queue of pending and active tasks.
+- Memory-Critical Details: Must log all planning decisions, task decompositions, and agent assignments. Should record context for each planning session for reproducibility and debugging.
+- Architectural Notes: Interfaces with all other agents via well-defined APIs. Should be stateless between sessions except for planning logs. Designed for extensibility (e.g., plug in different planning strategies or external orchestration tools).

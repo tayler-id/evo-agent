@@ -1,0 +1,6 @@
+# .clinerules for critic agent
+
+- Purpose: The critic agent is responsible for running self-reflection (e.g., Reflexion) loops after failures or key events, analyzing outcomes, and recommending improvements to planning and execution.
+- Responsibilities: Monitors agent outcomes, detects failures or suboptimal results, initiates reflection cycles, logs insights, and suggests changes to strategies or parameters. Provides feedback to the planner and other agents.
+- Memory-Critical Details: Must log all reflection triggers, analyses, recommendations, and outcomes. Should record context for each reflection session for learning and traceability.
+- Architectural Notes: Interfaces with planner and memory agents. Designed for extensibility (e.g., add new reflection strategies or learning algorithms). Should be stateless except for reflection logs.

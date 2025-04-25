@@ -1,0 +1,6 @@
+# .clinerules for researcher agent
+
+- Purpose: The researcher agent is responsible for gathering information from web and local sources, synthesizing multi-source digests, and providing relevant knowledge to the planner and other agents.
+- Responsibilities: Executes web and local searches, scrapes and summarizes content, ranks and filters results, and returns structured digests. Supports both proactive (scheduled) and reactive (on-demand) research.
+- Memory-Critical Details: Must log all search queries, sources accessed, digests produced, and relevance scores. Should record context for each research session for traceability and improvement.
+- Architectural Notes: Interfaces with browser automation tools and custom scrapers. Designed for extensibility (e.g., add new search engines or scraping modules). Should be stateless except for research logs and cache.
